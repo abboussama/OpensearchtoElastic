@@ -40,7 +40,7 @@ This script converts OpenSearch rule JSON files into Elasticsearch rule JSON fil
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/opensearch-to-elasticsearch-converter.git
+   git clone https://github.com/abboussama/OpensearchtoElastic.git
    cd opensearch-to-elasticsearch-converter
    ```
 
@@ -139,8 +139,6 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-
-**Note**: Replace `yourusername` in the clone URL with your actual GitHub username, and ensure that the LICENSE file is included in your repository.
 
 ## Appendix: Detailed Functionality
 
