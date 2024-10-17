@@ -1,0 +1,26 @@
+{
+    "name": "Example Rule",
+    "description": "This rule triggers on certain conditions.",
+    "enabled": true,
+    "type": "query_threshold",
+    "index": "your_opensearch_index",
+    "query": {
+      "query_string": {
+        "query": "status: 404"
+      }
+    },
+    "threshold": {
+      "field": "response_time",
+      "value": 1000
+    },
+    "schedule": {
+      "interval": "1m"
+    },
+    "actions": {
+      "email": {
+        "to": "alert@example.com",
+        "subject": "Alert: High Response Time",
+        "message": "The response time has exceeded the threshold."
+      }
+    }
+  }
