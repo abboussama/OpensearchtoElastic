@@ -1,5 +1,5 @@
 
-# OpenSearch to Elasticsearch Rule Converter
+# OpenSearch to ElastAlert Rule Converter
 
 This script converts OpenSearch rule JSON files into Elasticsearch rule JSON files. It reads OpenSearch rules, processes them, and saves the converted rules in a specified output directory. The script supports both command-line and graphical user interface (GUI) modes, allowing flexibility in how you use it.
 
